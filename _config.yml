@@ -3,13 +3,13 @@
 
 # Uncomment and set the URL of your site (with protocol, e.g. `https://`)
 # NOTE: You don't need to provide this property when hosting on GitHub Pages or Netlify.
-# url:                   https://lazyren.github.io
+#url:                   https://severinsm.github.io
 
 # Uncomment and set the "base URL" of your site.
 # When your site is in a subdirectory, set to `/<name of directory>`,
 # with a leading `/` but no trailing `/`. Use the empty string '' otherwise.
 # NOTE: You don't need to provide this property when hosting on GitHub Pages or Netlify.
-# baseurl:               ''
+# baseurl:               '/'
 
 
 # General settings
@@ -17,42 +17,45 @@
 
 # Language of your content in 2-letter code, e.g.: en, de.
 # You may also provide a location, e.g.: en-us, de_AT.
-lang:                  ko-KR, en-US
+lang:                  nl-NL, en-US
 
 # The title of your blog. Used in the sidebar and the browser tab.
-title:                 Lazy Ren
+title:                 Maikel Severins
 
-timezone:              Asia/Seoul
+timezone:              Europe/Amsterdam
 
 # A short description (~150 chars) of the page used for the meta description tag.
 # Can use markdown, but no more than one paragraph (enforced by `>`)
 description:           >
-  Work Hard to be Lazy.
-  SW Engineer at Samsung Research.
+  devops engineer.
+  IT professional.
+  Hacker.
+  I deliver quality and fully automated IT services. I focus on this approach because
+  I can deliver the IT components as-a-code, so stability and realiability are a key.
 
 # A shorter description for the sidebar.
 tagline:               >
-  Work Hard to be Lazy.
+  IT, Devops, hacker.
 
 # A list of keywords for your blog
-keywords:              ["Development", "C++", "Rust", "Jekyll"]
+keywords:              ["IT", "Automation", "DevOps", "Hacking"]
 
 # A (square) logo for your site.
 # If provided, it will be shown at the top of the sidebar.
 # It also used by the `jekyll-seo-tag` plugin.
-logo:                  /assets/img/seattle.png
+logo:                  /assets/img/mslogo-whiteletters.png
 
 # This should be the same author as first entry in `_data/authors.yml`.
 author:
   # Used by `jekyll-feed`:
-  name:                DaeIn Lee
-  email:               daein0lee@gmail.com
-  picture:             /assets/img/seattle.png
+  name:                Maikel Severins
+  email:               maikelseverins@hotmail.nl
+  picture:             /assets/img/mslogo.png
   social:
-    linkedin:          daein-lee-3b6ba9139
-    github:            lazyren
+    linkedin:          asdfsd
+    github:            severinsm
     stackoverflow:     4294737
-    email:             daein0lee@gmail.com
+    email:             maikelseverins@hotmail.nl
 
 # Add links to the footer.
 # Typically you'll want to link to your cookie- or privacy policy (if appliable), etc..
@@ -91,7 +94,7 @@ excerpt_separator:     <!--more-->
 
 # Sidebar image and theme color of the site.
 accent_image:
-  background:          center / cover url(/assets/img/music-cat-no-loop.gif)
+  background:          center / cover url(/assets/img/slice.gif)
   overlay:             false
 accent_color:          rgb(0,174,239)
 
@@ -212,17 +215,17 @@ comments:
 # You must install giscus github app before use.(https://github.com/apps/giscus)
 # Make sure all variables are set properly. Check below link for detail.
 # https://giscus.vercel.app/
-giscus:
-  repo:                "LazyRen/LazyRen.github.io"
-  repo-id:             "MDEwOlJlcG9zaXRvcnkyNzU4Mjk1NTc="
-  category:            "Comments"
-  category-id:         "DIC_kwDOEHDTNc4B-MIg"
-  mapping:             "pathname"
-  reaction-enabled:    "1"
-  data-emit-metadata:  "0"
-  theme:               "dark_dimmed"
-  data-lang:           "en"
-  crossorigin:         "anonymous"
+#giscus:
+#  repo:                "LazyRen/LazyRen.github.io"
+#  repo-id:             "MDEwOlJlcG9zaXRvcnkyNzU4Mjk1NTc="
+#  category:            "Comments"
+#  category-id:         "DIC_kwDOEHDTNc4B-MIg"
+#  mapping:             "pathname"
+#  reaction-enabled:    "1"
+#  data-emit-metadata:  "0"
+#  theme:               "dark_dimmed"
+#  data-lang:           "en"
+#  crossorigin:         "anonymous"
 
 # Setting a tinyletter username will enable the newsletter subscription box.
 # PRO version only!

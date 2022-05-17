@@ -9,11 +9,13 @@ order: 1
 
 ## Hello, World!
 
-Hi, I'm **DaeIn Lee**, *a.k.a.* **Lazy Ren**.<br>
-I'm currently working at **[SAP Labs Korea]**, and previsouly was CSE student of **[Hanyang University]**.<br>
-I like to solve brain teasing problems in field of CSE (probably the reason I liked multi-core programming / OS courses).<br>
+Hi, I'm **Maikel Severins**.<br>
+I'm a passionate **IT lover**, that specialized in **IT infra**, **Cyber Security** and **DevOps**.<br>
+I like to know what I'm doing, and minimize mistakes. that's why I'm intresested to write
+everything as a code.<br>
+Please check my [Resume][resume] to find out more about me!<br>
 And I'm also a [heavy gamer]!<br>
-Pleaseh check my [resume] if you wish to know more about me.
+Please check my [resume] if you wish to know more about me.
 
 ***
 
