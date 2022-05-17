@@ -3,8 +3,8 @@
 
 # Uncomment and set the URL of your site (with protocol, e.g. `https://`)
 # NOTE: You don't need to provide this property when hosting on GitHub Pages or Netlify.
-#url:                   https://severinsm.github.io
-
+url:                   https://severinsm.github.io
+repository: severinsm/severinsm.github.io
 # Uncomment and set the "base URL" of your site.
 # When your site is in a subdirectory, set to `/<name of directory>`,
 # with a leading `/` but no trailing `/`. Use the empty string '' otherwise.
@@ -215,17 +215,18 @@ comments:
 # You must install giscus github app before use.(https://github.com/apps/giscus)
 # Make sure all variables are set properly. Check below link for detail.
 # https://giscus.vercel.app/
-#giscus:
-#  repo:                "severinsm/severinsm.github.io"
-#  repo-id:             "MDEwOlJlcG9zaXRvcnkyNzU4Mjk1NTc="
-#  category:            "Comments"
-#  category-id:         "DIC_kwDOEHDTNc4B-MIg"
-#  mapping:             "pathname"
-#  reaction-enabled:    "1"
-#  data-emit-metadata:  "0"
-#  theme:               "dark_dimmed"
-#  data-lang:           "en"
-#  crossorigin:         "anonymous"
+giscus:
+  repo:                "severinsm/severinsm.github.io"
+  repo-id:             "R_kgDOHWJRfg"
+  category:            "Comments"
+  category-id:         "DIC_kwDOHWJRfs4CPJd_"
+  mapping:             "pathname"
+  reaction-enabled:    "1"
+  data-emit-metadata:  "0"
+  theme:               "dark_dimmed"
+  data-lang:           "en"
+  data-loading:        "lazy"
+  crossorigin:         "anonymous"
 
 # Setting a tinyletter username will enable the newsletter subscription box.
 # PRO version only!

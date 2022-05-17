@@ -2,8 +2,8 @@
 layout: post
 title: "LEGO Technic Ducati Panigale V4 R 조립"
 subtitle: "LEGO Technic Ducati Panigale V4 R Building"
-category: review
-tags: hardware lego
+category: cyber-security
+tags: pentest
 image:
   path: /assets/img/2021-03-16/ducati/ducati_panigale.jpeg
 ---
