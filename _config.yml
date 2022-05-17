@@ -219,7 +219,7 @@ giscus:
   repo:                "severinsm/severinsm.github.io"
   repo-id:             "R_kgDOHWJRfg"
   category:            "Comments"
-  category-id:         "DIC_kwDOHWJRfs4CPJd_"
+  category-id:         "DIC_kwDOHWJRfs4CPJfY"
   mapping:             "pathname"
   reaction-enabled:    "1"
   data-emit-metadata:  "0"
