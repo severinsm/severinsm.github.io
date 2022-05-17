@@ -2,11 +2,11 @@
 lang: en
 layout: post
 title: "Run ansible from a stable environment anywhere"
-subtitle: "C++ Binary Search"
+subtitle: "get into docker ansible"
 category: DevOps
 tags: ansible
 image:
-#  path: /assets/img/2020-08-17/soju.jpg
+  path: /assets/img/2022-01-17/ansible.png
 ---
 
 > bal bal bla bla bla

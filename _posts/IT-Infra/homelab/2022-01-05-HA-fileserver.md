@@ -5,9 +5,8 @@ title:    "Create HA fileserver cluster"
 subtitle: "high available fileserver"
 category: it-infra
 tags:     IT Windows
-comments: true
 image:
-  path:   /assets/img/2021-08-05/procpp.jpg
+  path:   /assets/img/2022-01-05/dual_primary_drdb.png
 ---
 
 ## create fileserver HA cluster

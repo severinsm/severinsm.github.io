@@ -5,8 +5,6 @@ title: "How I customized Hydejack Theme"
 subtitle: "How I customized Hydejack Theme"
 category: devlog
 tags: blog github-pages jekyll
-image:
-  path: /assets/img/2020-08-02/showcase.png
 ---
 
 Thanks to [@qwtel], I'm on the [showcase] of Hydejack's official blog!

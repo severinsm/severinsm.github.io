@@ -6,7 +6,7 @@ subtitle: "IT addiction brought to home"
 category: it-infra
 tags:     IT Homelab
 image:
-  path:   /assets/img/2021-08-05/procpp.jpg
+  path:   /assets/img/2022-05-17/homelab.jpg
 ---
 
 test 
