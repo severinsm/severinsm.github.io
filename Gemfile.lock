@@ -279,10 +279,10 @@ PLATFORMS
 
 DEPENDENCIES
   github-pages
-  jekyll (~> 3.9)
+  jekyll
   jekyll-compose
   jekyll-include-cache
-  webrick (~> 1.7)
+  webrick
 
 BUNDLED WITH
    2.3.13

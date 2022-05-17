@@ -1,4 +1,5 @@
 ---
+lang: en
 layout:   post
 title:    "Create HA fileserver cluster"
 subtitle: "high available fileserver"

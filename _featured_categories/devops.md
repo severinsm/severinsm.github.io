@@ -2,7 +2,7 @@
 layout: list
 type: category
 title: DevOps
-slug: DevOps
+slug: devops
 sidebar: true
 order: 2
 description: >

@@ -3,7 +3,7 @@ layout: tag-list
 type: tag
 title: Windows
 slug: windows
-category: devlog
+category: it-infra
 sidebar: false
 description: >
    Windows related articles

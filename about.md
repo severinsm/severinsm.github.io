@@ -1,4 +1,5 @@
 ---
+lang: en
 layout: welcome
 title: About
 permalink: /about/

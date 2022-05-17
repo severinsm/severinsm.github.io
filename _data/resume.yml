@@ -1,21 +1,21 @@
 basics:
   name: "Maikel Severins"
   label: "IT Professional"
-  picture: /assets/img/mslogo-whiteletters.png
+  picture: /assets/img/mslogo.png
   email: "maikelseverins@hotmail.nl"
-  phone: "(+82) 10-6273-3333"
+  phone: "+ 31 (0) 612 345 678"
   website: "https://severinsm.github.io/"
   summary: >
     Hello, I'm Maikel Severins.<br>
-    I like to solve brain teasing problems in the field of CSE.<br>
+    I like to solve brain teasing problems in the field of IT.<br>
     I'd like to describe myself as a fast learner;<br>
     I am confident that I can satisfy expectations of coworkers.
   location:
-    address: "2712 Broadway St"
-    postalCode: "CA 94115"
-    city: "San Francisco"
-    countryCode: "US"
-    region: "California"
+    address: "27 straat"
+    postalCode: "5995 GG"
+    city: "Kessel"
+    countryCode: "NL"
+    region: "Limburg"
   profiles:
     - network: "Github"
       username: "severinsm"
@@ -30,45 +30,45 @@ work:
     startDate: "2021-03-01"
     endDate: ""
     summary: >
-      SAP Labs Korea, a cornerstone of SAP HANA, now aims to bring the in-memory technology to the cloud where it acts as a single gateway to data of any size to harness the power of data wherever it resides and ensure the platform for intelligent enterprise.
+      Keep the operations between development and ideas. Git, terraform, ansible, CI/CD, docker, k8 etc.
     highlights:
-  - company: "Samsung Research"
-    position: "SW Engineer"
-    website: "https://research.samsung.com/"
-    startDate: "2020-02-03"
-    endDate: "2020-12-31"
+  - company: "EyeXS B.V."
+    position: "Sysadmin & more"
+    website: "https://www.eyexs.com"
+    startDate: "2015-02-03"
+    endDate: "2021-02-31"
     summary: >
-      Samsung Research is the advanced research and development (R&D) hub of Samsung Electronics. The hub leads the development of the future technologies with more than 10,000 researchers and developers working in overseas R&D centers.
+      Development of new IT services, Datacenter activities, IT infra, consulting and many more.
     highlights:
-      - "Software Capacity Building T/F"
-  - company: "Samsung Research"
-    position: "Intern"
-    website: "https://research.samsung.com/"
-    startDate: "2019-06-24"
-    endDate: "2019-08-30"
+      - "Build and maintain VDI solution A-Z"
+      - "Managed and expands intern datacenter"
+      - "Windows and Linux"
+  - company: "Cybrhat"
+    position: "security analyst"
+    website: "https://cybrhat.nl"
+    startDate: "2020-06-24"
+    endDate: ""
     summary:
     highlights:
-      - "Software engineering internship at Smart Device team."
-      - "8 week internship to develop smart switch circuit PMU firmware with the purpose of increasing power efficiency."
-  - company: "LG CNS"
-    position: "Intern"
-    website: "https://www.lgcns.co.kr/"
+      - "Co-Owner of a company specializing in cyber security."
+      - "pentest"
+      - "security consultancy"
+  - company: "Snackbar t Strotje"
+    position: "student sidejob"
+    website: ""
     startDate: "2019-01-03"
     endDate: "2019-02-28"
-    summary:
-    highlights:
-      - "Software Engineering Internship at Development Platform team."
-      - "6 week internship to develop new Enterprise Application Platform pages."
-      - "Gained better understanding of overall web development."
-  - company: "Fortify Inc."
+    summary: > 
+      Side job when I went to school.
+  - company: "Laurentius ziekenhuis Roermond."
     position: "Intern"
-    website: "https://fortify.pro/"
-    startDate: "2018-07-08"
-    endDate: "2018-08-24"
+    website: "https://lzr.nl"
+    startDate: "2012-07-08"
+    endDate: "2014-08-24"
     summary:
     highlights:
-      - "Building responsive homepage for 'fortify.pro'."
-      - "Backend/frontend development and service usage analysis using mongoDB for Gaia Landscape Inc."
+      - "Day to day operations."
+      - "PC and server managment."
 volunteer:
   - organization: "Hanyang Mentoring Program"
     position: "Mentor"
@@ -182,21 +182,22 @@ skills:
       - "Leadership"
       - "Affable"
 languages:
-  - language: "Korean"
+  - language: "Dutch"
     fluency: "Native speaker"
   - language: "English"
     fluency: "Fluent"
+  - language: "German"
+    fluency: "3/5"
 interests:
   - name: "Activity"
     keywords:
-      - "Tennis"
-      - "Snowboarding"
-      - "Cycling"
-  - name: "Reading"
+      - "Developing"
+      - "Soccer"
+      - "Beer"
+  - name: "Interests"
     keywords:
-      - "J. R. R. Tolkien"
-      - "이영도"
-      - "전민희"
+      - "Programming"
+      - "Construction work"
   - name: "Gaming"
     keywords:
       - "Board Games"

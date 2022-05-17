@@ -1,7 +1,8 @@
 ---
+lang: en
 layout: post
-title: "Possible Infinite Loop in Wait-free Bounded Queue"
-subtitle: "Possible Infinite Loop in Wait-free Bounded Queue"
+title: "Replacing AppV with MSIX"
+subtitle: "AppV is almost end-of-life and MSIX is way better"
 category: it-infra
 tags:     IT
 comments: true

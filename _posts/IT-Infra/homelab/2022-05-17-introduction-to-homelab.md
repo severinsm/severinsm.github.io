@@ -1,4 +1,5 @@
 ---
+lang: en
 layout:   post
 title:    "Introduction to my homelab"
 subtitle: "IT addiction brought to home"

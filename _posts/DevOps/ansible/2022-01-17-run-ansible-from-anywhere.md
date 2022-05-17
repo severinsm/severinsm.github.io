@@ -1,4 +1,5 @@
 ---
+lang: en
 layout: post
 title: "Run ansible from a stable environment anywhere"
 subtitle: "C++ Binary Search"

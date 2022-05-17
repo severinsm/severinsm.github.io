@@ -1,4 +1,5 @@
 ---
+lang: en
 layout: post
 title: "How I customized Hydejack Theme"
 subtitle: "How I customized Hydejack Theme"

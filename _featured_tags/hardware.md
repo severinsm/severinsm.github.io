@@ -3,8 +3,8 @@ layout: tag-list
 type: tag
 title: Hardware
 slug: hardware
-category: review
+category: it-infra
 sidebar: false
 description: >
-   Hardware reviews
+   Hardware
 ---

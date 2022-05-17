@@ -463,28 +463,28 @@ jekyll_compose:
         A short ~160 character description of your post for search engines,
         social media previews, etc.
       image:
-        path: /assets/img/sidebar-bg.jpg
+        path: /assets/img/slice.gif
     posts:
       layout: post
       description: >
         A short ~160 character description of your post for search engines,
         social media previews, etc.
       image:
-        path: /assets/img/sidebar-bg.jpg
+        path: /assets/img/slice.gif
     projects:
       layout: project
       description: >
         A short ~160 character description of your post for search engines,
         social media previews, etc.
       image:
-        path: /assets/img/sidebar-bg.jpg
+        path: /assets/img/slice.gif
       links:
-        - title: Project Link
-          url: https://example.com
+        - title: Personal project
+          url: https://severinsm.githhub.io
 
 # jekyll-feed settings
 feed:
   categories:
-    - devlog
-    - review
-    - studylog
+    - cyber-security
+    - devops
+    - it-infra
