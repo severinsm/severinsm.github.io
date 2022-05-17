@@ -1,15 +1,14 @@
 ---
 lang: en
-layout: post
-title: "Replacing AppV with MSIX"
+layout:   post
+title:    "Replacing AppV with MSIX"
 subtitle: "AppV is almost end-of-life and MSIX is way better"
 category: it-infra
 tags:     IT
-comments: true
+image:
+  path:   /assets/img/2022-05-04/appv-msix.png
 ---
-
-Debueram eminet misceri nymphae aliquis
-=======================================
+## replace AppV with MSIX
 
 Os nec scopulis virgae igitur extenuatur terras
 -----------------------------------------------

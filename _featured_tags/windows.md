@@ -4,7 +4,7 @@ type: tag
 title: Windows
 slug: windows
 category: it-infra
-sidebar: false
+sidebar: true
 description: >
    Windows related articles
 ---

@@ -3,7 +3,7 @@ lang: en
 layout: post
 title: "Run ansible from a stable environment anywhere"
 subtitle: "get into docker ansible"
-category: DevOps
+category: devops
 tags: ansible
 image:
   path: /assets/img/2022-01-17/ansible.png
