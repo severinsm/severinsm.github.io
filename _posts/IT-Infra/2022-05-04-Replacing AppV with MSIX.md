@@ -9,91 +9,38 @@ image:
   path:   /assets/img/2022-05-04/appv-msix.png
 ---
 ## replace AppV with MSIX
+Many companies are still using AppV, but end-of life in inevitable
+## What is MSIX
+**MSIX** is a Windows app package format that provides a modern packaging experience to all Windows apps. The MSIX package format preserves the functionality of existing app packages and/or install files in addition to enabling new, modern packaging and deployment features to Win32, WPF, and Windows Forms apps.
+## Key features
+Reliability. MSIX provides a reliable install boasting a 99.96% success rate over millions of installs with a guaranteed uninstall.
+Network bandwidth optimization. MSIX decreases the impact to network bandwidth through downloading only the 64k block. This is done by leveraging the AppxBlockMap.xml file contained in the MSIX app package (see below for more details). MSIX is designed for modern systems and the cloud.
+Disk space optimizations. With MSIX there is no duplication of files across apps and Windows manages the shared files across apps. The apps are still independent of each other so updates will not impact other apps that share the file. A clean uninstall is guaranteed even if the platform manages shared files across apps.
+## Highlights
+Package existing Windows apps. Use the MSIX Packaging Tool to create an MSIX package for any Windows app, old or new. The MSIX packaging tool streamlines the packaging experience, offering an interactive user interface or command line to convert and package Windows apps.
+Install MSIX app packages. Use App Installer to install or update any MSIX app package that is locally available or on any content distribution network.
+Apply run time fixes to packaged apps. The Package Support Framework is an open source kit that helps you apply fixes to your existing desktop app when you don't have access to the source code, so that it can run in an MSIX container.
+Use MSIX anywhere. With the open source MSIX SDK, MSIX packages are more versatile, and platform independent. The SDK provides all of the APIs needed to verify, validate, and unpack an app package on any platform, including Windows 10 and non-Windows 10 platforms.
 
-Os nec scopulis virgae igitur extenuatur terras
------------------------------------------------
+[![Break Free from your packaging Paralysis with MSIX](https://img.youtube.com/vi/phrD081sMWc/0.jpg)](https://www.youtube.com/watch?v=phrD081sMWc&feature=emb_imp_woyt)
 
-Lorem markdownum duobus nobis clarae __Phrygia__ herbas pedibusque vitamque
-saltus sequiturque iudicis. Superque loco sacras aurigenae, tamen Elin
-oppressos! Serae erat terris Padumque cupit cavernas illos cupidine quoque
-__timori__.
+## Inside an MSIX package
+![MSIX Package Diagram](https://docs.microsoft.com/en-us/windows/msix/package/images/msixpackage.png)
 
-Obscurum tumultus bello cadet viris
------------------------------------
+## App payload
+The payload files are the app code files and assets that are created when building the app.
 
-Unde fore tulit nymphis obruor, murice [utque] hunc recolligis altus
-incommendataque stridore gradieris dixit? Dedisset praeter ipsa aperire,
-maximus? [Est ait] terret precatur minor __adsidua__, moderantum euhoeque sua
-mota [putabant est] iunctarum tiliae iam nocenti vetus mihi neque. Ursos sed ad
-[Echo]. Ima sub retinere undas servata eadem.
+## AppxBlockMap.xml
+The package block map file is an XML document that contains a list of the app’s files along with indexes and cryptographic hashes for each block of data that is stored in the package. The block map file itself is verified and secured with a digital signature when the package is signed. The block map file allows MSIX packages to be downloaded and validated incrementally, and also works to support differential updates to the app files after they’re installed.
 
-1. Patrem pendebant pedes
-2. Et causa tellus est tuam deque sequuntur
-3. Lanugine sub Pallas
-4. Aera o feroci deficiunt
+## AppxManifest.xml
+The package manifest is an XML document that contains the info the system needs to deploy, display, and update an MSIX app. This info includes package identity, package dependencies, required capabilities, visual elements, and extensibility points.
 
-Finge pectus placidoque terris
-------------------------------
+## AppxSignature.p7x
+The AppxSignature.p7x is generated when the package is signed. All MSIX packages are required to be signed before install. With the AppxBlockmap.xml, the platform is able to install the package and be validated.
 
-__Lucemque__ inmixtos! Meo _agri sunt cuperem_ putet animi, sua in mersis in.
-Dixit et lingua et quem, violentia ossa, quid. Saxo fugit, sine corde tenebrosa
-_edita_, sua nuda mihi magni oscula abstitimus nunc adversum, sit ante.
-Tremoribus etiam Minervae corpore vinclo sis loton dignare, __frequentes__
-medeatur.
+## Supported platforms
+See [this article](https://docs.microsoft.com/en-us/windows/msix/supported-platforms) for a full list of platforms that support MSIX.
 
-Infestus harundine soror ut poterat habenas est
------------------------------------------------
-
-Fortemque armis postquam suumque leonem est [inposita], tectis qui quae
-perluitur, plumis. _Sed nec_ vicit ille iura serpunt radice illa, qua laeta,
-agros Iuppiter.
-
-```
-var zipWebsiteRaw = web;
-var system = suffixRippingPharming + swipe_graymail_file + 2;
-ribbonResponsive = logFullPortal;
-if (supercomputer(webmasterUpsMbr)) {
-    remoteUndoMinimize(lockLeakDial, serverDdr);
-    wep = waisAlgorithm;
-}
-```
-
-Et [annum calidi] frustraque anser gravatos odit vidi _India_ Cyparissus
-concumbere regi: deorum ab et fulvo. Et velamina audet forte Libys facta, nec
-simul et [lunae rege]. Formae in putat vires Ismenides ieiuna acceptos ferendam
-Lyrcea: [quibus] ducentem resimas terrena mortis.
-
-## Possible Infinite Loop Situation
-
-
-<details>
-<summary>all pictures</summary>
-<div sample markdown="1">
-
-![note-1](/assets/img/wait-free-queue/001.jpeg)
-
-![note-2](/assets/img/wait-free-queue/002.jpeg)
-
-![note-3](/assets/img/wait-free-queue/003.jpeg)
-
-![note-4](/assets/img/wait-free-queue/004.jpeg)
-
-![note-5](/assets/img/wait-free-queue/005.jpeg)
-
-![note-6](/assets/img/wait-free-queue/006.jpeg)
-
-![note-7](/assets/img/wait-free-queue/007.jpeg)
-
-![note-8](/assets/img/wait-free-queue/008.jpeg)
-
-</div>
-</details>
-
-[Echo]: http://vibrant.io/
-[Est ait]: http://www.alimenta-saevis.com/nec
-[annum calidi]: http://www.quosque.net/his-moras
-[inposita]: http://tenetur.io/
-[lunae rege]: http://virgas.org/
-[putabant est]: http://autem.net/ignosce.php
-[quibus]: http://animos-nunc.net/niteantpetebar
-[utque]: http://www.iura.io/illudmonedula
+## Benefits of app containers
+Apps that are packaged using MSIX run in a lightweight app container. The MSIX app process and its child processes run inside the container and are isolated using file system and registry virtualization. All MSIX apps can read the global registry. An MSIX app writes to its own virtual registry and application data folder, and this data will be deleted when the app is uninstalled or reset. Other apps do not have access to the virtual registry or virtual file system of an MSIX app.
