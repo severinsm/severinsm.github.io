@@ -33,7 +33,7 @@ work:
       Keep the operations between development and ideas. Git, terraform, ansible, CI/CD, docker, k8 etc.
     highlights:
   - company: "EyeXS B.V."
-    position: "Sysadmin & more"
+    position: "Sysadmin"
     website: "https://www.eyexs.com"
     startDate: "2015-02-03"
     endDate: "2021-02-31"
@@ -61,7 +61,7 @@ work:
     summary: > 
       Side job when I went to school.
   - company: "Laurentius ziekenhuis Roermond."
-    position: "Intern"
+    position: "Intern & summer-job"
     website: "https://lzr.nl"
     startDate: "2012-07-08"
     endDate: "2014-08-24"
@@ -69,30 +69,43 @@ work:
     highlights:
       - "Day to day operations."
       - "PC and server managment."
-volunteer:
-  - organization: "Hanyang Mentoring Program"
-    position: "Mentor"
+  - company: "Gubbels Paprika's (Peppers)"
+    position: "harvest/cutting, sorting and maintenance"
     website: ""
-    startDate: "2018-03-02"
-    endDate: "2018-12-21"
-    summary: "Mentoring for the major courses of CSE with juniors"
-    highlights:
-      - "Data Structure; Teaching & helping sophomores on the data structure course."
-      - "Database Systems; Teaching & helping sophomores on the database system course."
-      - "Awarded 'Hanyang Best Mentor' for mentoring Database Systems course."
-  - organization: "Hanmille, Foreigner Mentoring Program"
-    position: "Mentor"
-    website: ""
-    startDate: "2014-03-02"
-    endDate: "2014-12-18"
-    summary: "Mentoring & helping foreign students to easily adjust to Korea."
-    highlights:
+    startDate: "2006"
+    endDate: "2010"
+    summary: > 
+      Side job when I went to school.
+      Eventually worked 1 year fulltime after mid-school
+
 education:
-  - institution: "Hanyang University, Seoul"
-    area: "Computer Science & Engineering"
-    studyType: "Bachelor"
-    startDate: "2014-03-02"
-    endDate: "2020-02-21"
+  - institution: "'De Merwijck' in Kessel"
+    area: "elementary school"
+    studyType: "completed education"
+    startDate: "05-09-1996"
+    endDate: "24-07-2004"
+
+  - institution: "'De Merwijck' in Kessel"
+    area: "elementary school"
+    studyType: "completed education"
+    startDate: "1996"
+    endDate: "2004"
+    gpa: "4.0 (major 4.28) / 4.5"
+    courses:
+      - "Concurrent Programming"
+      - "Data Science"
+      - "Operating Systems"
+      - "Computer Architecture"
+      - "Database Systems"
+      - "System Programming"
+  - certificate: "Engineer Information Processing (정보처리기사)"
+    date: "2019-11-22"
+
+  - institution: "'De Merwijck' in Kessel"
+    area: "elementary school"
+    studyType: "completed education"
+    startDate: "1996"
+    endDate: "2004"
     gpa: "4.0 (major 4.28) / 4.5"
     courses:
       - "Concurrent Programming"
@@ -104,19 +117,19 @@ education:
   - certificate: "Engineer Information Processing (정보처리기사)"
     date: "2019-11-22"
 projects:
-  - title: "Bw-Tree Performance Boosting"
-    startDate: "2018-08-01"
-    endDate: "2019-10-31"
-    summary: "Evaluating cache / multi thread Performance of <a href='https://github.com/wangziqi2013/BwTree'>Open Bw-Tree</a> to find bottleneck and improvement performance."
-    url: "https://lazyren.github.io/tag-bwtree/"
+  - title: "Budget WiFi with OpenWRT"
+    startDate: "06-06-2022"
+    endDate: "06-06-2022"
+    summary: "excellent WiFi coverage on the cheap with OpenWRT to improve the performance of my wifi."
+    url: "https://gitlab.com/severinsm/homebrew/wifi"
     highlights:
       - "Implementing update function based on the <a href='https://hyeontaek.com/papers/openbwtree-sigmod2018.pdf'>page</a>."
       - "Make update function atomic & reduce call of traverse function."
       - "Design TaS implemented Bw-Tree instead of CaS to reduce the overhead of failed CaS operations."
-  - title: "Wait-free Snapshot with Epoch Based Garbage Collection"
-    startDate: "2019-10-01"
-    endDate: "2019-10-31"
-    summary: "Concurrent Programming Course"
+  - title: "Building my own homelab"
+    startDate: "01-05-2021"
+    endDate:
+    summary: "VM's, KuberNetes(k8s) & Docker"
     url: "https://github.com/LazyRen/2019-Concurrent-Programming/tree/master/project3"
     highlights:
       - "Implementing Wait-free Snapshot based on the textbook 'The Art of Multiprocessor Programming'"
