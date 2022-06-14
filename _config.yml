@@ -248,7 +248,7 @@ hydejack:
   project_addons:      [about, other, comments]
 
   # Set to `true` if you don't want to show an icon indicating external links
-  no_mark_external:    true
+  no_mark_external:    false
 
   # Set to `true` if third party plugins fail to work with dynamically loaded pages
   no_push_state:       false
@@ -317,9 +317,9 @@ hydejack:
   # Buyers of the PRO version can opt to hide all dates from the theme.
   # Frequent consumers of online content will know that nothing devalues a post like
   # seeing an old date.
-  hide_dates:          false
+  hide_dates:          true
 
-  hide_last_modified:  false
+  hide_last_modified:  true
   # Note that dark mode only works in the PRO version of Hydejack.
   dark_mode:
     # Set to `true` to always use the dark theme.
