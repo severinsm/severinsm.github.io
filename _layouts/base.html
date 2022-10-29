@@ -24,7 +24,7 @@ layout: compress
 {% assign image       = page.accent_image | default:site.accent_image | default:'/assets/img/sidebar-bg.jpg' %}
 {% assign color       = page.accent_color | default:site.accent_color | default:'rgb(79,177,186)' %}
 {% assign theme_color = page.theme_color  | default:site.theme_color  | default:'rgb(8,46,57)' %}
-
+{% seo %}
 <head>
   {% include head/index.html %}
 </head>

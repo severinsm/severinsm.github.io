@@ -3,16 +3,16 @@ basics:
   label: "IT Professional"
   picture: /assets/img/mslogo.png
   email: "maikelseverins@hotmail.nl"
-  phone: "+ 31 (0) 612 345 678"
+  phone: "+ 31 (0)6 ask me"
   website: "https://severinsm.github.io/"
   summary: >
     Hello, I'm Maikel Severins.<br>
     I like to solve brain teasing problems in the field of IT.<br>
     I'd like to describe myself as a fast learner;<br>
-    I am confident that I can satisfy expectations of coworkers.
+    I am confident in delivering the perfect improvements and solutions for your oraganisation.
   location:
-    address: "27 straat"
-    postalCode: "5995 GG"
+    address: "Schijfweg-zuid 5"
+    postalCode: "5995 BD"
     city: "Kessel"
     countryCode: "NL"
     region: "Limburg"
@@ -22,27 +22,34 @@ basics:
       url: "https://github.com/severinsm"
     - network: "LinkedIn"
       username: "Maikel Severins"
-      url: "https://www.linkedin.com/in/maikel-severins-34354g3/"
+      url: "https://www.linkedin.com/in/maikel-severins-a4838a101/"
 work:
+  - company: "SagaOne IT"
+    position: "Owner / Freelancer in IT"
+    website: "https://sagaone.it"
+    startDate: "2022-11-01"
+    endDate: ""
+    summary: >
+      I am like a swiff army knife in IT, I'm available to freelance for different kind of IT jobs.
+    highlights:
+      - "Freelance IT assignments"
+      - "Build CI/CD pipelines"
+      - "Infa & IT solutions"
+      - "Cloud engineering"
+      - "IaC with terraform/terragrunt"
+      - "Provisioning with Ansible, chef, puppet, saltstack"
+
   - company: "VidaXL"
     position: "DevOps Engineer"
     website: "https://vidaxl.com"
     startDate: "2021-03-01"
     endDate: ""
     summary: >
-      Keep the operations between development and ideas. Git, terraform, ansible, CI/CD, docker, k8 etc.
+      Keep the operations between development and ideas. Git, terraform, ansible, CI/CD, docker, k8, IaC, etc.
     highlights:
-  - company: "EyeXS B.V."
-    position: "Sysadmin"
-    website: "https://www.eyexs.com"
-    startDate: "2015-02-03"
-    endDate: "2021-02-31"
-    summary: >
-      Development of new IT services, Datacenter activities, IT infra, consulting and many more.
-    highlights:
-      - "Build and maintain VDI solution A-Z"
-      - "Managed and expands intern datacenter"
-      - "Windows and Linux"
+      - "GCP cloud engineering"
+      - "Developing cloud functions to help with integrations"
+      - "Data transformations in python and ETL tooling"
   - company: "Cybrhat"
     position: "security analyst"
     website: "https://cybrhat.nl"
@@ -51,13 +58,27 @@ work:
     summary:
     highlights:
       - "Co-Owner of a company specializing in cyber security."
-      - "pentest"
-      - "security consultancy"
+      - "Red Teaming (pentesting, phishing etc.)"
+      - "Cyber Security consultancy"
+  - company: "EyeXS B.V."
+    position: "Sysadmin"
+    website: "https://www.eyexs.com"
+    startDate: "2014-02-03"
+    endDate: "2021-02-31"
+    summary: >
+      Development of new IT services, Datacenter activities, IT infra, consulting and many more.
+    highlights:
+      - "Build and maintain VDI solution A-Z"
+      - "Managing and expand Datacenter"
+      - "Customer solutions migrations"
+      - "3th line support for very complex problems"
+      - "Taking care of the complete IT customer solutions"
+
   - company: "Snackbar t Strotje"
     position: "student sidejob"
     website: ""
-    startDate: "2019-01-03"
-    endDate: "2019-02-28"
+    startDate: "2007-01-03"
+    endDate: "2013-02-28"
     summary: > 
       Side job when I went to school.
   - company: "Laurentius ziekenhuis Roermond."
@@ -67,54 +88,66 @@ work:
     endDate: "2014-08-24"
     summary:
     highlights:
-      - "Day to day operations."
-      - "PC and server managment."
+      - "Day to day operations"
+      - "PC and server managment"
   - company: "Gubbels Paprika's (Peppers)"
-    position: "harvest/cutting, sorting and maintenance"
+    position: "Greenhouse employee"
     website: ""
-    startDate: "2006"
-    endDate: "2010"
+    startDate: "01-04-2006"
+    endDate: "01-7-2010"
+    highlights:
+      - "harvesting Peppers"
+      - "sorting Peppers"
+      - "Greenhouse maintenance"
     summary: > 
       Side job when I went to school.
       Eventually worked 1 year fulltime after mid-school
 
 education:
-  - institution: "'De Merwijck' in Kessel"
-    area: "elementary school"
-    studyType: "completed education"
+  - institution: "Elementary school 'De Merwijck'"
+    area: "Kessel"
+    studyType: "Elementary Education"
     startDate: "05-09-1996"
     endDate: "24-07-2004"
 
-  - institution: "'De Merwijck' in Kessel"
-    area: "elementary school"
-    studyType: "completed education"
-    startDate: "1996"
-    endDate: "2004"
-    gpa: "4.0 (major 4.28) / 4.5"
+  - institution: "'Bouwens van der BoijeCollege'"
+    area: "Panningen"
+    studyType: "HAVO – Senior general secondary education"
+    startDate: "05-09-2004"
+    endDate: "05-09-2009"
     courses:
-      - "Concurrent Programming"
-      - "Data Science"
-      - "Operating Systems"
-      - "Computer Architecture"
-      - "Database Systems"
-      - "System Programming"
-  - certificate: "Engineer Information Processing (정보처리기사)"
-    date: "2019-11-22"
+      - "secondary general education"
+      - "N&T profile (Nature and Health)"
+      - "Math A"
+      - "Biology"
+      - "Chemistry"
+      - "M&O(management and Organisation)"
+      - "dropped out in 4th class, certificate is equivalent of VMBO-T"
 
-  - institution: "'De Merwijck' in Kessel"
-    area: "elementary school"
-    studyType: "completed education"
-    startDate: "1996"
-    endDate: "2004"
-    gpa: "4.0 (major 4.28) / 4.5"
+  - institution: " 'GildeOpleidingen'"
+    area: "Roermond"
+    studyType: "MBO - vocational college: employee system administrator (level 3)"
+    startDate: "05-09-2010"
+    endDate: "05-09-2012"
     courses:
-      - "Concurrent Programming"
-      - "Data Science"
-      - "Operating Systems"
-      - "Computer Architecture"
-      - "Database Systems"
-      - "System Programming"
-  - certificate: "Engineer Information Processing (정보처리기사)"
+      - "PC assembly"
+      - "Hands-on workshop"
+      - "same other courses as in level 4 (see below)"
+
+
+  - institution: "'GildeOpleidingen'"
+    area: "Roermond"
+    studyType: "MBO - vocational college: System administrator (level 4)"
+    startDate: "05-09-2012"
+    endDate: "05-09-2014"
+    courses:
+      - "ITIL"
+      - "MCITP"
+      - "Cisco"
+      - "Dutch, English, Math"
+      - "Long internship since assignments was building complete production ready VDI solution"
+
+  - certificate: "CCNA"
     date: "2019-11-22"
 projects:
   - title: "Budget WiFi with OpenWRT"
@@ -204,18 +237,19 @@ languages:
 interests:
   - name: "Activity"
     keywords:
-      - "Developing"
-      - "Soccer"
-      - "Beer"
-  - name: "Interests"
+      - "Code Developing"
+      - "Technology"
+  - name: "Hobby's"
     keywords:
       - "Programming"
       - "Construction work"
+      - "Soccer"
+      - "Beer nights"
   - name: "Gaming"
     keywords:
-      - "Board Games"
-      - "<a href='https://steamcommunity.com/id/lazyren'>Steam</a>"
-      - "<a href='http://www.companyofheroes.com/leaderboards#profile/steam/76561198031392006/standings'>Company of Heroes 2</a>"
+      - "CS:GO"
+      - "League of Legends"
+      - "OSRS (Old School Runescape)"
 # references:
 #   - name: "Erlich Bachman"
 #     reference: >

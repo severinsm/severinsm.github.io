@@ -9,12 +9,11 @@ sidebar: true
 order: 5
 left_column:
  - work
- - education
  - projects
  - publications
  - references
 right_column:
- - awards
+ - education
  - volunteer
  - languages
  - skills

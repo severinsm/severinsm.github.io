@@ -41,33 +41,9 @@ So in order to keep the quality the same and reduce the time taken, the work pro
 After evaluating what you do, you may have some ideas of what you want to improve or modify.<br>
 Break it down to its core.
 
-## Try a new process
-
-Be open to completely changing the way you work.<br>
-You can’t expect to become more productive unless you pay a price at first.
-
-## Refine yourself
-
-By refining yourself I mean going through this work hard to be lazy process in iterations.<br>
-Try a new process, if that doesn’t help as much as you hoped, try another process.<br>
-The worst thing that could happen is that you don’t find any improvement in your work process and go back to your original process and just work hard.<br>
-Did you lose anything?
-
-[original post]
-
-***
-
-Blog created by DaeIn Lee on July 19. 2018 in Vancouver,<br>
-based on the jekyll theme [Hydejack].
-
-***
 
 <!--author-->
 
 <!-- Links -->
-[SAP Labs Korea]: https://www.sap.com/korea/about/labs-korea.html
-[Hanyang University]: https://www.hanyang.ac.kr/
-[heavy gamer]: https://steamcommunity.com/id/lazyren
 [resume]: /resume/
-[original post]: http://blog.vivekmahbubani.com/2007/03/work-hard-to-be-lazy.html
-[Hydejack]: https://hydejack.com
+
