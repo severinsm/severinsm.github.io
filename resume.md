@@ -9,14 +9,15 @@ sidebar: true
 order: 5
 left_column:
  - work
- - projects
- - publications
- - references
-right_column:
- - education
- - volunteer
- - languages
  - skills
+# - projects
+# - publications
+# - references
+right_column:
+ - skills2
+ - education
+ - languages
+# - volunteer
  - interests
 no_language_icons: false
 no_skill_icons: false

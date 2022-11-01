@@ -1,7 +1,7 @@
 basics:
   name: "Maikel Severins"
   label: "IT Professional"
-  picture: /assets/img/mslogo.png
+  picture: /assets/img/ms_profilepic.png
   email: "maikelseverins@hotmail.nl"
   phone: "+ 31 (0)6 ask me"
   website: "https://severinsm.github.io/"
@@ -9,7 +9,14 @@ basics:
     Hello, I'm Maikel Severins.<br>
     I like to solve brain teasing problems in the field of IT.<br>
     I'd like to describe myself as a fast learner;<br>
-    I am confident in delivering the perfect improvements and solutions for your organisation.
+    I am confident in delivering the perfect improvements and solutions for your organisation.<br><br>
+    Some workload that I can provide:<br>
+
+    - Build CI/CD pipelines
+
+    - IaC with terraform/terragrunt
+
+    - Provisioning with ex. Ansible, chef, puppet, saltstack
   location:
     address: "Schijfweg-zuid 5"
     postalCode: "5995 BD"
@@ -20,6 +27,9 @@ basics:
     - network: "Github"
       username: "severinsm"
       url: "https://github.com/severinsm"
+    - network: "Gitlab"
+      username: "severinsm"
+      url: "https://gitlab.com/severinsm"
     - network: "LinkedIn"
       username: "Maikel Severins"
       url: "https://www.linkedin.com/in/maikel-severins-a4838a101/"
@@ -33,11 +43,9 @@ work:
       I am like a swiff army knife in IT, I'm available to freelance for different kind of IT jobs.
     highlights:
       - "Freelance IT assignments"
-      - "Build CI/CD pipelines"
       - "Infa & IT solutions"
+      - "Cyber security assignments"
       - "Cloud engineering"
-      - "IaC with terraform/terragrunt"
-      - "Provisioning with Ansible, chef, puppet, saltstack"
 
   - company: "VidaXL"
     position: "DevOps Engineer"
@@ -89,7 +97,7 @@ work:
     summary:
     highlights:
       - "Day to day operations"
-      - "PC and server managment"
+      - "PC and server management"
   - company: "Gubbels Paprika's (Peppers)"
     position: "Greenhouse employee"
     website: ""
@@ -104,6 +112,20 @@ work:
       Eventually worked 1 year fulltime after mid-school
 
 education:
+  - certificate: "Certified Ethical Hacker CEH-V10"
+    date: "2021-04-12"
+  - certificate: "VHL - Virtual hacking labs Advanced +"
+    date: "2020-11-22"
+  - certificate: "VOIP - Hipper basis"
+    date: "2015-11-22"
+  - certificate: "CCNA"
+    date: "2013-11-22"
+  - certificate: "MCSA: Windows 7 - Enterprise Desktop Support Technician (70-680)"
+    date: "2012-11-22"
+
+
+
+
   - institution: "Elementary school 'De Merwijck'"
     area: "Kessel"
     studyType: "Elementary Education"
@@ -146,15 +168,6 @@ education:
       - "Cisco"
       - "Dutch, English, Math"
       - "Long internship since assignments was building complete production ready VDI solution"
-
-  - certificate: "CCNA"
-    date: "2012-11-22"
-  - certificate: "VOIP - Hipper basis"
-    date: "2015-11-22"
-  - certificate: "VHL - Virtual hacking labs"
-    date: "2020-11-22"
-  - certificate: "Certified Ethical Hacker CEH-V10"
-    date: "2021-04-12"
 projects:
   - title: "Budget WiFi with OpenWRT"
     startDate: "06-06-2022"
@@ -184,7 +197,7 @@ projects:
       - "Converted PCs to fat clients with dell Wyse pc converter sofware and mange them via Wyse central manager"
       - "Enable direct login with azure account into terminal server without azure ad connect by hacking windows store on a server"
 skills:
-  - name: "IT infra"
+  - name: "IT Infra"
     level: "Master"
     keywords:
       - "Cisco"
@@ -194,18 +207,30 @@ skills:
       - "Hyper-V 2012r2 - 2019"
       - "KVM & Qemu"
       - "Xen"
-  - name: "RDS farm management"
+  - name: "IT Professional"
     level: "Master"
     keywords:
       - "Application streaming (MSIX, App-V)"
       - "RDS/RDP"
       - "Windows (all versions)"
+      - "Mac OS"
+      - "Linux"
+      - "BSD"
       - "GPU for VDI"
-  - name: "IaC & provisioning"
+
+  - name: "DevOps Professional"
     level: "Master"
     keywords:
-      - "IaC: Terraform, Terragrunt, Atlantis, bamboo"
-      - "Provisioning: Ansible, Saltstack, Chef, Puppet"
+      - "IaC
+      - Terraform"
+      - "Terragrunt"
+      - "Atlantis" 
+      - "bamboo"
+      - "K8's/Kubernetes"
+      - "Docker swarm"
+      - "microservices"
+      - "Ansible"
+      - "Saltstack"
   - name: "Scripting"
     level: "master"
     keywords:
@@ -233,14 +258,6 @@ skills:
       - "password attacks"
 
 
-  - name: "GCP - Google Cloud"
-    level: "Master"
-  - name: "Digital Ocean"
-    level: "Master"
-  - name: "MS Azure"
-    level: "Intermediate"
-  - name: "AWS - Amazon Web Services"
-    level: "Intermediate"
   - name: "Web Development"
     level: "Junior"
     keywords:
@@ -252,7 +269,15 @@ skills:
     keywords:
       - "Leadership"
       - "Affable"
-
+skills2:
+  - name: "GCP - Google Cloud"
+    level: "Master"
+  - name: "Digital Ocean"
+    level: "Master"
+  - name: "MS Azure"
+    level: "Intermediate"
+  - name: "AWS - Amazon"
+    level: "Intermediate"
 
 languages:
   - language: "Dutch"

@@ -17,7 +17,7 @@ author1:
 
   # This photo will be used in the about section
   picture:
-    path:            /assets/img/mslogo.png
+    path:            /assets/img/ms_profilepic.png
     # srcset is optional, but can be used to provide higher res versions for retina displays
     # srcset:
     #   1x:
@@ -29,13 +29,14 @@ author1:
   social:
     #twitter:         <username>
     github:          severinsm
+    gitlab:          severinsm
     email:           maikelseverins@hotmail.nl
     # rss:             https://<url>/feed.xml
-    reddit:          severinsm
+    #reddit:          severinsm
     # facebook:        <username>
     # google:          12431243
     # vk:              <username>
-    youtube:         https://www.youtube.com/user/magicball60
+    #youtube:         https://www.youtube.com/user/magicball60
     # vimeo:           <username>
     # vine:            <username>
     # spotify:         <user>/<number>
@@ -48,7 +49,7 @@ author1:
     # behance:         <username>
     # deviantart:      <username>
     # ello:            <username>
-    twitch:          xp0w0nx
+    #twitch:          xp0w0nx
     # steam:           <number>
     # reddit:          <username>
     # tumblr:          <username>
@@ -59,7 +60,7 @@ author1:
     # npm:             <username>
     # hackernews:      <username>
     # trello:          <firstnamelastname>
-    # linkedin:        <firstname-lastname-string>
+    linkedin:        maikel-severins-a4838a101
     # xing:            <firstname_lastname_counter>
     # blogger:         <number>
     # delicious:       <username>
