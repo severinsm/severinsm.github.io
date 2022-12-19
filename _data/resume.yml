@@ -40,7 +40,7 @@ work:
     startDate: "2022-11-01"
     endDate: ""
     summary: >
-      I am like a swiff army knife in IT, I'm available to freelance for different kind of IT jobs.
+      I am like a swiss army knife in IT, I'm available to freelance for different kind of IT jobs.
     highlights:
       - "Freelance IT assignments"
       - "Infa & IT solutions"
@@ -58,6 +58,18 @@ work:
       - "GCP cloud engineering"
       - "Developing cloud functions to help with integrations"
       - "Data transformations in python and ETL tooling"
+  - company: "OMS Grashoek"
+    position: "System administrator"
+    website: "https://omsgrashoek.nl"
+    startDate: "2020-05-01"
+    endDate: ""
+    summary: >
+      KVM, Cisco, Juniper, Windows server, cloudflare, terraform, Azure, O365, Dell Wyse, Active directory etc.
+    highlights:
+      - "Maintain on-prem serverpark"
+      - "Developing of ansible orchestration"
+      - "Maintain Azure environment (exchange, intune, autopilot etc.)"
+      - "Modern backup"
   - company: "Cybrhat"
     position: "security analyst"
     website: "https://cybrhat.nl"
