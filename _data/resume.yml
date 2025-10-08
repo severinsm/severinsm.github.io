@@ -1,22 +1,19 @@
 basics:
   name: "Maikel Severins"
-  label: "IT Professional"
+  label: "Cloud & Security Specialist | DevOps | Security by Design"
   picture: /assets/img/ms_profilepic.png
   email: "maikelseverins@hotmail.nl"
-  phone: "+ 31 (0)6 ask me"
+  phone: "+31 (0)6-ask-me"
   website: "https://severinsm.github.io/"
   summary: >
-    Hello, I'm Maikel Severins.<br>
-    I like to solve brain teasing problems in the field of IT.<br>
-    I'd like to describe myself as a fast learner;<br>
-    I am confident in delivering the perfect improvements and solutions for your organisation.<br><br>
-    Some workload that I can provide:<br>
-
-    - Build CI/CD pipelines
-
-    - IaC with terraform/terragrunt
-
-    - Provisioning with ex. Ansible, chef, puppet, saltstack
+    Ervaren / Senior Cloud Specialist met focus op Security by Design, automatisering en het veilig en schaalbaar inrichten van cloudomgevingen.<br><br>
+    Ik help organisaties sneller en veiliger te leveren door GitOps-principes, shift-left beveiliging en geautomatiseerde platformengineering te combineren.<br>
+      - Met hands-on ervaring in o.a. Azure, AWS en GCP aangevuld met Kubernetes/OpenShift en CI/CD.<br>
+      - Gericht op duurzame oplossingen die aantoonbaar compliant, onderhoudbaar en toekomstbestendig zijn. 
+      - Ontwerpen en implementeren van landing zones, netwerk- en identity‑fundamenten, en CI/CD met geïntegreerde security (SAST/DAST, IaC‑scanning, SBOM).<br>
+      - Ervaring met policy‑as‑code, zero‑trust‑principes, databeveiliging (Key/Secrets management) en doorlopende monitoring.<br>
+      - Gericht op aantoonbare compliance (ISO 27001/NIST‑verwachtingen) en hoge beschikbaarheid/herstel (multi‑zone, DR).<br>
+      - Sterk in het vertalen van risicobeheersing naar concrete guardrails.
   location:
     address: "Schijfweg-zuid 5"
     postalCode: "5995 BD"
@@ -35,289 +32,217 @@ basics:
       url: "https://www.linkedin.com/in/maikel-severins-a4838a101/"
 work:
   - company: "SagaOne IT"
-    position: "Owner / Freelancer in IT"
+    position: "Eigenaar / Cloud & Security Consultant"
     website: "https://sagaone.it"
     startDate: "2022-11-01"
     endDate: ""
     summary: >
-      I am like a swiss army knife in IT, I'm available to freelance for different kind of IT jobs.
+      Levering van cloud- en securityoplossingen met focus op governance, automatisering en infrastructuurbeveiliging.
     highlights:
-      - "Freelance IT assignments"
-      - "Infa & IT solutions"
-      - "Cyber security assignments"
-      - "Cloud engineering"
+      - "Landing zones: identity, netwerk, management & governance"
+      - "Policy‑as‑code en guardrails op schaal"
+      - "Threat detection & monitoring; incidentrespons inrichten"
+      - "Back‑ups & DR: RPO/RTO‑afspraken en tests"
+
+  - company: "Belastingdienst IV - CTO Office"
+    position: "Security Application Engineer"
+    website: ""
+    startDate: "2023-03-01"
+    endDate: ""
+    summary: >
+      Security-by-Design en veilige cloud-native werkomgevingen.
+    highlights:
+      - "OTAP‑ontwerp en pipeline‑security"
+      - "Beleidsadviezen, security requirements en compliance‑controles"
+      - "Containerbeveiliging, guardrails en supply chain security"
+      - "Shift‑left training en developer enablement"
 
   - company: "VidaXL"
     position: "DevOps Engineer"
     website: "https://vidaxl.com"
     startDate: "2021-03-01"
-    endDate: ""
+    endDate: "2023-03-01"
     summary: >
-      Keep the operations between development and ideas. Git, terraform, ansible, CI/CD, docker, k8, IaC, etc.
+      DevOps‑processen en beveiligde cloudomgevingen.
     highlights:
-      - "GCP cloud engineering"
-      - "Developing cloud functions to help with integrations"
-      - "Data transformations in python and ETL tooling"
-  - company: "OMS Grashoek"
-    position: "System administrator"
-    website: "https://omsgrashoek.nl"
-    startDate: "2020-05-01"
-    endDate: ""
-    summary: >
-      KVM, Cisco, Juniper, Windows server, cloudflare, terraform, Azure, O365, Dell Wyse, Active directory etc.
-    highlights:
-      - "Maintain on-prem serverpark"
-      - "Developing of ansible orchestration"
-      - "Maintain Azure environment (exchange, intune, autopilot etc.)"
-      - "Modern backup"
+      - GCP-integraties en serverless
+      - IaC en CI/CD
+      - ETL/datatransformaties
+      - Geautomatiseerde back‑ups
+
   - company: "Cybrhat"
-    position: "security analyst"
+    position: "Security Analist / Mede-oprichter"
     website: "https://cybrhat.nl"
     startDate: "2020-06-24"
-    endDate: ""
-    summary:
-    highlights:
-      - "Co-Owner of a company specializing in cyber security."
-      - "Red Teaming (pentesting, phishing etc.)"
-      - "Cyber Security consultancy"
-  - company: "EyeXS B.V."
-    position: "Sysadmin"
-    website: "https://www.eyexs.com"
-    startDate: "2014-02-03"
-    endDate: "2021-02-31"
+    endDate: "2023-10-01"
     summary: >
-      Development of new IT services, Datacenter activities, IT infra, consulting and many more.
+      Risicobeheer, pentesting en consultancy.
     highlights:
-      - "Build and maintain VDI solution A-Z"
-      - "Managing and expand Datacenter"
-      - "Customer solutions migrations"
-      - "3th line support for very complex problems"
-      - "Taking care of the complete IT customer solutions"
+      - Red Teaming
+      - Risico‑assessments en audits
+      - Security roadmaps en implementatie‑advies
 
-  - company: "Snackbar t Strotje"
-    position: "student sidejob"
-    website: ""
-    startDate: "2007-01-03"
-    endDate: "2013-02-28"
-    summary: > 
-      Side job when I went to school.
-  - company: "Laurentius ziekenhuis Roermond."
-    position: "Intern & summer-job"
-    website: "https://lzr.nl"
-    startDate: "2012-07-08"
-    endDate: "2014-08-24"
-    summary:
+  - company: "EyeXS B.V."
+    position: "Systeembeheerder"
+    website: "https://www.eyexs.com"
+    startDate: "2014-02-03" 
+    endDate: "2021-02-28"
+    summary: >
+      VDI‑implementaties en datacenterbeheer.
     highlights:
-      - "Day to day operations"
-      - "PC and server management"
-  - company: "Gubbels Paprika's (Peppers)"
-    position: "Greenhouse employee"
-    website: ""
-    startDate: "01-04-2006"
-    endDate: "01-7-2010"
-    highlights:
-      - "harvesting Peppers"
-      - "sorting Peppers"
-      - "Greenhouse maintenance"
-    summary: > 
-      Side job when I went to school.
-      Eventually worked 1 year fulltime after mid-school
-
+      - "Azure/Microsoft-architectuur en migraties"
+      - "AWS-infrabeheer, on‑premises datacenters, virtualisatie"
 education:
+  - certificate: "Certified SAFe® 6 Practitioner"
+    date: "2025-10-08"
+    url: "https://www.credly.com/badges/cad15d3d-218f-40da-b626-d897883ff720"
   - certificate: "Certified Ethical Hacker CEH-V10"
     date: "2021-04-12"
-  - certificate: "VHL - Virtual hacking labs Advanced +"
+  - certificate: "VHL - Virtual Hacking Labs Advanced +"
     date: "2020-11-22"
-  - certificate: "VOIP - Hipper basis"
+  - certificate: "VOIP - Hipper Basis"
     date: "2015-11-22"
   - certificate: "CCNA"
     date: "2013-11-22"
   - certificate: "MCSA: Windows 7 - Enterprise Desktop Support Technician (70-680)"
     date: "2012-11-22"
-
-
-
-
-  - institution: "Elementary school 'De Merwijck'"
-    area: "Kessel"
-    studyType: "Elementary Education"
-    startDate: "05-09-1996"
-    endDate: "24-07-2004"
-
-  - institution: "'Bouwens van der BoijeCollege'"
+  - institution: "Bouwens van der Boije College"
     area: "Panningen"
-    studyType: "HAVO – Senior general secondary education"
-    startDate: "05-09-2004"
-    endDate: "05-09-2009"
+    studyType: "HAVO – Hoger Algemeen Voortgezet Onderwijs"
+    startDate: "2004-09-05"
+    endDate: "2009-09-05"
     courses:
-      - "secondary general education"
-      - "N&T profile (Physics and Biology)"
-      - "Math A"
-      - "Biology"
-      - "Chemistry"
-      - "M&O(management and Organisation)"
-      - "dropped out in 4th class, certificate is equivalent of VMBO-T"
-
-  - institution: " 'GildeOpleidingen'"
+      - "Profiel N&T (Natuurkunde, Biologie)"
+      - "M&O (Management en Organisatie)"
+  - institution: "Gilde Opleidingen"
     area: "Roermond"
-    studyType: "MBO - vocational college: employee system administrator (level 3)"
-    startDate: "05-09-2010"
-    endDate: "05-09-2012"
-    courses:
-      - "PC assembly"
-      - "Hands-on workshop"
-      - "same other courses as in level 4 (see below)"
-
-
-  - institution: "'GildeOpleidingen'"
-    area: "Roermond"
-    studyType: "MBO - vocational college: System administrator (level 4)"
-    startDate: "05-09-2012"
-    endDate: "05-09-2014"
+    studyType: "MBO Systeembeheerder (niveau 4)"
+    startDate: "2012-09-05"
+    endDate: "2014-09-05"
     courses:
       - "ITIL"
       - "MCITP"
       - "Cisco"
-      - "Dutch, English, Math"
-      - "Long internship since assignments was building complete production ready VDI solution"
-projects:
-  - title: "Budget WiFi with OpenWRT"
-    startDate: "06-06-2022"
-    endDate: "06-06-2022"
-    summary: "excellent WiFi coverage on the cheap with OpenWRT to improve the performance of my wifi."
-    url: ""
-    highlights:
-      - "replacing my current wifi with 4x mi router flashed with OpenWRT."
-      - "Enable fast-roaming to have the smoothest experience of wifi-mesh"
-  - title: "Building my own homelab"
-    startDate: "01-05-2021"
-    endDate:
-    summary: "VM's, KuberNetes(k8s) & Docker"
-    url: ""
-    highlights:
-      - "Implement kubernetes cluster with agroCD"
-      - "Implement CI/CD pipelines from gitlab to aggroCD instead of gitlab's 'native' k8s connector"
-      - "Use ansible playbook to roll-out a SAP (s4/HANA) system complete with redundant systems"
-      - "many more hobby servers rolled-out."
-  - title: "Migrate on-prem to azure cloud"
-    startDate: "2022-10-02"
-    endDate: "2022-10-28"
-    summary: "Migrate terminal server users to Azure"
-    url: ""
-    highlights:
-      - "use saltstack to manage local policies and updates"
-      - "Converted PCs to fat clients with dell Wyse pc converter sofware and mange them via Wyse central manager"
-      - "Enable direct login with azure account into terminal server without azure ad connect by hacking windows store on a server"
 skills:
-  - name: "IT Infra"
+  - name: "Cloud & Platform"
+    level: "Master"
+    keywords:
+      - "Azure"
+      - "GCP"
+      - "AWS"
+      - "Landing zones"
+      - "VPC"
+      - "Identity"
+      - "governance"
+      - "network"
+      - "Kubernetes"
+      - "OpenShift"
+      - "Key/Secrets management"
+      - "Monitoring"
+      - "Observability"
+      - "Back‑up & DR"
+  - name: "DevSecOps & GitOps"
+    level: "Master"
+    keywords:
+      - "Terraform"
+      - "Helm"
+      - "Kustomize"
+      - "GitHub Actions"
+      - "Azure DevOps"
+      - "GitLab CI"
+      - "SAST"
+      - "DAST"
+      - "IaC"
+      - "SBOM"
+      - "SCA"
+      - "Attestation"
+  - name: "Scripting & Automatisering"
+    level: "Master"
+    keywords:
+      - "Bash"
+      - "PowerShell"
+      - "Python"
+      - "Go"
+  - name: "Security & Compliance"
+    level: "Master"
+    keywords:
+      - "Security by Design (SbD)"
+      - "Zero‑Trust"
+      - "Shift-left security"
+      - "Threat modeling"
+      - "SAST/DAST"
+      - "IaC scanning"
+      - "OPA/Gatekeeper"
+      - "Kyverno"
+      - "Neuvector"
+      - Runtime security
+      - "Policy-as-code"
+      - "Compliance-as-code"
+      - BIO
+      - ISO 27001
+      - NIST
+      - "Supply chain security (SLSA)"
+      - Red Teaming
+      - security audits
+  - name: "Observability & Operations"
+    level: "Master"
+    keywords:
+      - "Prometheus"
+      - "Grafana"
+      - "Loki"
+      - "ELK/EFK"
+      - "Alerting & incident response"
+  - name: "Scripting & Development"
+    level: "Master"
+    keywords:
+      - "Bash"
+      - "PowerShell"
+      - "Python"
+      - "Go"
+      - "js"
+      - "ts"
+  - name: "Netwerk & Infrastructuur"
     level: "Master"
     keywords:
       - "Cisco"
       - "Juniper"
       - "Checkpoint"
-      - "VMware 5.5-7.0"
-      - "Hyper-V 2012r2 - 2019"
-      - "KVM & Qemu"
-      - "Xen"
-  - name: "IT Professional"
-    level: "Master"
-    keywords:
-      - "Application streaming (MSIX, App-V)"
-      - "RDS/RDP"
-      - "Windows (all versions)"
-      - "Mac OS"
-      - "Linux"
-      - "BSD"
-      - "GPU for VDI"
-
-  - name: "DevOps Professional"
-    level: "Master"
-    keywords:
-      - "IaC
-      - Terraform"
-      - "Terragrunt"
-      - "Atlantis" 
-      - "bamboo"
-      - "K8's/Kubernetes"
-      - "Docker swarm"
-      - "microservices"
-      - "Ansible"
-      - "Saltstack"
-  - name: "Scripting"
-    level: "master"
-    keywords:
-      - "Bash"
-      - "Powershell"
-      - "Python"
-      - "ETL / Data tranformation & integration"
-  - name: "Programming"
-    level: "Junior"
-    keywords:
-      - "Python"
-      - "Go"
-      - "Java"
-  - name: "Ethical hacking"
-    level: "intermediate"
-    keywords:
-      - "network security audit"
-      - "web application audit"
-      - "nmap"
-      - "burp suite"
-      - "SQL Map"
-      - "netcat"
-      - "custom payloads"
-      - "phishing"
-      - "password attacks"
-
-
-  - name: "Web Development"
-    level: "Junior"
-    keywords:
-      - "HTML"
-      - "CSS"
-      - "Javascript"
-  - name: "Sociability"
-    level: "Master"
-    keywords:
-      - "Leadership"
-      - "Affable"
+      - "Mikrotik"
+      - "Proxmox"
+      - "KubeVirt / Harvester"
+      - "KVM"
+      - "VMware"
+      - "VDI-oplossingen"
+      - "On-prem naar cloud migraties"
 skills2:
   - name: "GCP - Google Cloud"
     level: "Master"
-  - name: "Digital Ocean"
+  - name: "Azure - Microsoft"
     level: "Master"
-  - name: "MS Azure"
-    level: "Intermediate"
   - name: "AWS - Amazon"
     level: "Intermediate"
+  - name: "Digital Ocean"
+    level: "Intermediate"
+
+
 
 languages:
-  - language: "Dutch"
-    fluency: "Native speaker"
-  - language: "English"
-    fluency: "Fluent"
-  - language: "German"
-    fluency: "3/5"
+  - language: "Nederlands"
+    fluency: "Moedertaal"
+  - language: "Engels"
+    fluency: "Vloeiend"
+  - language: "Duits"
+    fluency: "Basis"
+
 interests:
-  - name: "Activity"
+  - name: "Professioneel"
     keywords:
-      - "Code Developing"
-      - "Technology"
+      - "Cloud‑native architectuur"
+      - "Security technologieën"
+      - "Automatisering"
   - name: "Hobby's"
     keywords:
-      - "Programming"
-      - "Construction work"
-      - "Soccer"
-      - "Beer nights"
-  - name: "Gaming"
-    keywords:
-      - "CS:GO"
-      - "League of Legends"
-      - "OSRS (Old School Runescape)"
-# references:
-#   - name: "Erlich Bachman"
-#     reference: >
-#       It is my pleasure to recommend Richard, his performance working as a consultant for Main St.
-#       Company proved that he will be a valuable addition to any company.
-
-# <https://jsonresume.org/>
+      - "Programmeren"
+      - "Klussen"
+      - "Voetbal"
+      - "Gamen"
